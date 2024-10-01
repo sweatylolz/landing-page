@@ -98,7 +98,18 @@ a:hover {
 }
 
 #footercontainer {
-    width: 400px;
-    height: 75px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 500px;
+    height: 100px;
     background-color: rgb(65, 65, 204);
+    color: white;
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#footerheader {
+    font-size: small;
 }
