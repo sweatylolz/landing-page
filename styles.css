@@ -26,10 +26,22 @@ body {
     padding-bottom: 75px;
 }
 
-#image {
+#imageplaceholder {
     width: 300px;
     height: 150px;
     background-color: gray;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 120px;
+}
+
+#signupbtn {
+    background-color: rgb(65, 65, 204);
+    color: white;
+    padding: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 7px;
 }
 
 #body1 {
@@ -43,6 +55,8 @@ body {
 
 #imagetextcontainer {
     display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 #imagetext1, #imagetext2, #imagetext3, #imagetext4 {
@@ -112,4 +126,14 @@ a:hover {
 
 #footerheader {
     font-size: small;
+}
+
+#signupfooterbtn {
+    background-color: rgb(65, 65, 204);
+    color: white;
+    padding: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 7px;
+    border-color: white;
 }
