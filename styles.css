@@ -38,25 +38,23 @@ body {
     justify-content: center;
 }
 
-.imagerows, .imagerowstext {
+#imagetextcontainer {
     display: flex;
-    flex-direction: row;
-    padding-left: 10%;
-    padding-right: 10%;
 }
 
-.imagerows{
+#imagetext1, #imagetext2, #imagetext3, #imagetext4 {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column; 
+    align-items: center;
 }
 
-.imagerowstext {
+.imagerowtext {
+    text-align: center;
+    width: 75%;
     font-size: smaller;
-    justify-content: space-between;
-    gap: 50px;
 }
 
-#imagerow1, #imagerow2, #imagerow3, #imagerow4 {
+.image {
     width: 100px;
     height: 100px;
     border-radius: 20px;
